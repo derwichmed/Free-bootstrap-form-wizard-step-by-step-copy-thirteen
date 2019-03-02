@@ -1,0 +1,91 @@
+body{
+    background-color: #81c784
+}
+.form_wizard{
+    margin-top: 100px;
+}
+.form_wizard header > div:first-child{
+    text-align: center
+}
+.form_wizard header > div:first-child strong{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    font-size: 25px
+}
+.form_wizard header > div:first-child em{
+    color: black
+}
+.form_wizard header .steps_form .item{
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 2px
+}
+.form_wizard header .steps_form .item_disable{
+    background-color: #679f6a
+}
+.form_wizard header .steps_form .item_activ{
+    background-color: #6d26ff
+}
+.form_wizard header .steps_form .item strong{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    font-weight: normal;
+}
+.form_wizard header .steps_form .item img{ 
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+.form_wizard .form_item header strong{
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+}
+.form_wizard .form_item header{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.form_wizard .form_item .input-group{
+    width: 100%;
+    background-color: #9ad29d;
+    padding: 5px;
+    border-radius: 5px;
+    border-bottom: white 1px solid
+}
+.form_wizard .form_item .input-group-text,
+.form_wizard .form_item .form-control{
+    background-color: transparent;
+    border: none
+}
+.form_wizard .form_item label{
+    color: white;
+    font-family: "Raleway";
+}
+.form_wizard > div >  footer{
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+.form_wizard > div > footer button{
+    background-color: #009688;
+    color: white;
+    font-weight: bold;
+    border: white 1px solid;
+    border-radius: 100px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer
+}
+.form_wizard > div > footer .submit_btn{
+    display: none
+}
+.form_wizard .form_item div[class*=col-]{
+    padding: 0px
+}
